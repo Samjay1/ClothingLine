@@ -1,0 +1,305 @@
+  
+
+        body{
+            position: relative;
+            margin:3px 15px;  
+            padding-bottom: 30px;
+            overflow-x: visible;
+            background-color: white;
+        }
+        header{
+            margin: 0px;
+            background-color: grey;
+            height: 50px;
+            display: flex; 
+            justify-content: space-between;
+            padding-left: 20px;
+            box-shadow: 3px 2px 10px grey;
+            min-width: 700px;
+        }
+        .title{
+            font-size: x-large;
+            color:white;
+        }
+        .inumber{
+            font-size: x-large;
+        }
+        .ititle{
+            font-weight: normal;
+        }
+        .nav{
+            text-decoration: none;
+            color:white;
+            padding: 15px;
+            background-color: brown;
+            margin: auto;
+            transition:0.3s ease-in;
+        }
+        .nav:hover{
+            background-color: coral;
+        }
+        .kbl{
+            border-right: 2px solid white;
+        }
+
+        .main{
+            display: flex;
+        }
+        .content{ 
+            width: 100%;
+            min-width: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .item{
+            animation: ttb 0.6s ease;
+            margin: 5px;
+            background-color: rgb(255, 39, 24);
+            width: 200px;
+            height: 150px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 25px;
+            color: white;
+            box-shadow: 3px 2px 10px grey;
+        }
+
+        aside{
+            background-color: grey;
+            min-width: 200px;
+            max-width:20%;
+            padding: 5px;
+            position: relative;
+            right: 0px;
+            box-shadow: 0px 2px 10px grey;
+        }
+        .side{
+            border-radius: 10px;
+            display: block;
+            text-decoration: none;
+            color: #575757;
+            background-color: #fff; 
+            text-align: center; 
+            height: 45px;
+            padding-top: 30px;
+            transition: 0.5s ease;
+        }
+        .side:hover{
+            background-color: grey;
+            border: 1px dashed white;
+            color: white;
+        }
+        .divider,.idivider{
+            border: 1px solid rgb(207, 205, 205); 
+            width: 90%;
+            margin: auto;
+        }
+        .idivider{
+            width: 100%;
+            border: 1px solid white;
+        }
+        .table{ 
+            width: 100%;
+        }
+        table{ 
+            animation: rtl 0.9s ease-out ;
+            box-shadow: 3px 2px 10px grey;
+            border: 1px solid grey;
+            text-align: center; 
+            width: 90%;
+           border-collapse: collapse;
+           margin: auto;
+        }
+        th { 
+           
+            background-color: grey;
+            color: white;
+            font-size: 20px;
+            font-weight: normal;
+            padding: 15px;
+        }
+        table th a{
+            text-decoration: none;
+            color: white;
+            padding: 12px;
+            transition: 0.3s ease-in ;
+        }
+        table th a:hover{
+            background-color: indigo;
+        }
+        .ktbl{
+            border-right:1px solid grey; 
+        }
+        td{
+            padding: 13px;
+            border-bottom: 1px solid grey;
+        }
+
+
+/* BLOGS */
+
+.seperate{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.b-btn{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.b-btn a { 
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 4px;
+}
+.b-btn a:hover{
+    opacity: 0.9;
+    background-color: grey;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+
+ .blog-item{
+     margin: 30px auto;
+    border:1px solid black;
+}
+.btitle{
+    width: 100%;
+    height: 40px;  
+    margin-bottom: -10px;
+}
+.blogs{
+    
+    height: 400px;
+    width: 100%; 
+    padding: 10px;
+}
+
+.blog-item{
+    animation: brtl 0.9s ease-out;
+    width: 60%;
+    min-width: 550px;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+}
+.blog-item img{
+    width: 40%;
+}
+.blog-content{
+    /* border: 2px solid red; */
+    margin: 10px;
+
+}
+.blog-content a{
+    font-size: 25px;
+    text-decoration: none;
+    color: grey;
+}
+.blog-content a:hover{ 
+    color: orangered;
+    text-decoration: underline;
+}
+
+/* add blog form */
+
+.inputs { 
+    animation: rtl 0.8s ease-out;
+    box-shadow: -2px 3px 4px grey;
+    margin: 5px auto;
+    width: 80%;
+    /* border-bottom: 1px solid red;
+    border-left: 1px solid red; */
+    border-bottom-left-radius: 15px;
+}
+
+.single-input {
+    /* border: 1px solid blue; */
+    margin:  5px;
+    padding: 5px;
+    display: flex;
+    
+}
+.single-input input{
+    padding: 5px;
+    border-radius: 0px;
+    border: 1px solid grey;
+    width: 80%;
+}
+label{
+    text-align: center;
+    margin-right: 30px; 
+    width: 130px;
+}
+
+#add-btn{
+    width: 150px;
+    padding: 7px 0px;
+    color: white;
+     border:1px solid white;
+     margin: auto;
+     background-color: rgb(17, 17, 148);
+}
+
+
+/* MODAL SHEET */
+
+.modal-body{
+    display: none; 
+    position: fixed;
+    top: 60px;
+    right: 1%;
+    width: 400px;
+    animation: ttb 1s ease;
+}
+.modal-head, .modal-btn{
+    background-color: orange;
+    color: white;
+}
+
+.modal-content{
+    height: 50px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+         /* ANIMATIONS */   
+
+         @keyframes brtl{
+             from{
+                 margin-right: -500px;
+             }
+             to{
+                 margin-right: 215px;
+             }
+         }
+
+         @keyframes rtl{
+            from{
+                margin-right: -500px;
+            }
+            to{
+                margin-right: 50px;
+            }
+        }
+         
+         @keyframes ttb{
+            from{
+                margin-top: -100px;
+            }
+            to{
+                margin-top: 0px;
+            }
+        }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta author='Samjay-Awintex.code'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="admin.css">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <title>Clothing Line</title>
+    
+
+</head>
+<body>
+    <header>
+        <h2 class="title">Admin</h2>
+        <nav>
+            <a href="admin.html" class="nav kbl">DASBOARD</a>
+            <a href="#" id='open' class="nav kbl">SETTINGS</a>
+            <a href="#" class="nav">USERNAME</a>
+        </nav>
+    </header>
+   <section class="main">
+    <aside>
+
+        <a href="admin.html" class="side">DASBOARD</a>
+        <div class="divider"></div>
+        <a href="subscribe.html" class="side">SUBSCRIBERS</a>
+        <div class="divider"></div>
+        <a href="blog.html" class="side">BLOGS</a>
+        <div class="divider"></div>
+        <a href="products.html" class="side">FEATURED PRODUCTS</a>
+        <div class="divider"></div>
+        <a href="catalogue.html" class="side">CATALOGUE</a>
+        <div class="divider"></div>
+        <a href="users.html" class="side">USERS</a>
+
+    </aside>
+
+    <div class="content">
+        <div class="item">
+            <h2 class="ititle">BLOGS</h2>
+            <div class="idivider"></div>
+            <p class="inumber">13</p>
+        </div>
+
+        <div class="item" style="background-color: rgb(0, 185, 241);">
+            <h2 class="ititle">FEATURED</h2>
+            <div class="idivider"></div>
+            <p class="inumber">5</p>
+        </div>
+
+        <div class="item" style="background-color: rgb(0, 209, 0);">
+            <h2 class="ititle">CATALOGUE</h2>
+            <div class="idivider"></div>
+            <p class="inumber">25</p>
+        </div>
+
+        <div class="item" style="background-color: grey;">
+            <h2 class="ititle">USERS</h2>
+            <div class="idivider"></div>
+            <p class="inumber">102</p>
+        </div>
+
+
+        <div class="table">
+            <h2 style=" text-shadow: 1px 1px 5px grey;text-align: center;" class="ititle">SUBSCRIBERS</h2>
+            <table>
+                <tr>
+                    <th class="kbl">ID</th>
+                    <th class="kbl">EMAIL</th>
+                    <th><a href="#">Mail(ALL)</a></th>
+                </tr>
+                <tr>
+                    <td class="ktbl">1</td>
+                    <td>asd@example.com</td>
+                    <td><a href="#">Send Mail</a></td>
+                </tr>
+                <tr>
+                    <td class="ktbl">2</td>
+                    <td>asd@example.com</td>
+                    <td><a href="#">Send Mail</a></td>
+                </tr>
+
+                <tr>
+                    <td class="ktbl">2</td>
+                    <td>asd@example.com</td>
+                    <td><a href="#">Send Mail</a></td>
+                </tr>
+
+                <tr>
+                    <td class="ktbl">2</td>
+                    <td>asd@example.com</td>
+                    <td><a href="#">Send Mail</a></td>
+                </tr>
+                <tr>
+                    <td class="ktbl">2</td>
+                    <td>asd@example.com</td>
+                    <td><a href="#">Send Mail</a></td>
+                </tr>
+
+                <tr>
+                    <td class="ktbl">2</td>
+                    <td>asd@example.com</td>
+                    <td><a href="#">Send Mail</a></td>
+                </tr>
+
+                <tr>
+                    <td class="ktbl">2</td>
+                    <td>asd@example.com</td>
+                    <td><a href="#">Send Mail</a></td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+   </section>
+
+
+     <!-- MODAL SHEET -->
+     <div class="modal-body" id="myModal">
+        <div class="modal-head"> Modal Head</div>
+        <div class="modal-content">Modal content here</div>
+        <div class="modal-btn">
+            <a id="close" href="#">One</a>
+            <a id="update" href="#">Two</a>
+        </div>
+    </div>
+<script>
+    var modal = document.getElementById('myModal')
+    var close = document.getElementById('close')
+    var update = document.getElementById('update')
+    var open = document.getElementById('open')
+
+    open.onclick = function(){
+        modal.style.display  = 'block'
+    }
+
+    close.onclick = function(){
+        modal.style.display = 'none'
+    }
+    
+</script>
+
+
+</body>
+</html>

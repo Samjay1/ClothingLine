@@ -1,0 +1,393 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 15pt;
+}
+
+body{
+    font-family: Montserrat,Roboto, Helvetica, Amaranth; 
+    color: rgb(66, 66, 66); 
+    
+}
+header{
+    display: flex; 
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+nav{
+    display: flex; 
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+#settings{
+        margin: auto 5px;
+        visibility: hidden;
+        font-size: xx-large;
+    }
+.icons{ 
+    margin: auto 5px;  
+}
+.icons i{
+    margin-left:  5px;
+    margin-bottom: 10px;
+    color: rgb(99, 99, 99);
+}
+
+.top{
+    background-image: url(feet.jpg);
+    height: 550px; 
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+article{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*  CATALOGUE section */
+.catalogue{
+    display: flex; 
+    flex-wrap: wrap;
+   margin-top: 50px;
+    padding-left: 5%;  
+}
+
+.kupward{
+    margin-top: -170px;
+}
+.kdown{
+    
+    margin-top: 30px; 
+}
+
+.klong{
+    width: 30%;
+    height: 450px; 
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.cat{
+    position: absolute;
+    border: 2px solid orange;
+    margin: auto;
+}
+.text-one{
+    position: absolute;
+    top :10%;
+    left: 10%;  
+    font-size: 40px;
+    color: green;
+}
+
+.kshort{ 
+    width: 30%;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.featured .heading{
+    display:flex;
+    border-bottom: 1.3px solid orangered;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+.heading p{
+    margin: auto 0px; 
+}
+.featured-products{
+    display: flex; 
+}
+.single-product {  
+    width: 40%; 
+    height: 360px;
+    margin:10px 1%;
+    position: relative; 
+}
+.product-image, .blog-image{
+    border: 1px solid rgb(228, 224, 224); 
+    width: 100%;  
+    height: 300px;
+}
+.single-product h3{ 
+    position: absolute; 
+    top:10%; 
+    vertical-align: text-bottom;
+    background-color: rgb(99, 71, 255);
+    color: white;  
+    padding: 5px; 
+}
+
+/* BLOG SECTION  */
+.blog{
+     
+    padding: 10px;  
+    margin-top: 30px; 
+    height:700px;
+}
+.blog h1{
+    text-align: center; 
+    margin: 0px; 
+     
+}
+.all-blogs{ 
+     
+    padding-left: 10px; 
+    padding-right:10px; 
+    padding-bottom: 20px;
+   flex-wrap: wrap;
+    display:flex; 
+   
+}
+.single-blog{
+   line-height: 010pt;
+    width: 30%; 
+    height: 450px;
+    margin:10px auto;  
+    background-color: white;
+}
+.single-blog p,h2{
+   margin-left: 0px;
+}
+.brief{
+    line-height: 20pt; 
+    font-size: small;
+}
+
+
+/* MIDDLE SECTION */
+.middle{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #F2F2F2;
+   padding: 20px 0px; 
+   margin: 20px 0px;
+}
+.one{
+   width: 25%;  
+   padding: 0px 10px; 
+}
+.one h1{
+    line-height: 24pt;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+.left{
+    width: 30%; 
+    font-size: small; 
+}
+.right{
+    width: 30%;
+    display: flex;
+   justify-content: space-between; 
+   text-align: start;
+   font-size: small;
+   margin-top: 2px;
+}
+.categories{
+    line-height: 10pt;
+}
+.newsletter{
+    width: 30%;
+    font-size: small;
+    margin-bottom: 20px;
+}
+.email{ 
+    
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-left: 3px;
+    padding-right: 40px;
+    background-color: #F2F2F2; 
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    outline: orangered;
+}
+.email:focus {
+    border: none;
+    background-color: #F2F2F2;
+  border: 3px solid #081797; 
+    
+}
+.newsletter a{
+    background-color: #081797; 
+    padding: 20px 57px; 
+    text-decoration: none;
+    color: white;
+    margin: 30px 0px;
+    margin-left: 0%;
+      
+}
+/* K constants */
+.kmargin{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.kborder-right{
+    border-right: 1px solid rgb(190, 190, 190); 
+}
+
+.klspace{
+    line-height: 20pt;
+}
+.ktitle{
+    font-size: xx-large;
+    color: black;
+}
+.ktitle2{
+    font-size:18sp;
+    font-weight:bolder;
+    color: black;
+    margin-bottom: 40px;
+}
+.kprimary{
+    color: rgb(66, 66, 66); 
+}
+.ksecondary{
+    color: rgb(165, 165, 165); 
+}
+
+
+
+@media only screen and (max-width: 800px){
+    
+    
+    
+    
+    
+    
+    nav ul,.icons{
+    display: none; 
+}
+    #settings{
+        visibility: visible;
+    }
+    .top{
+    height: 450px; 
+    background-size:cover;
+    background-repeat: round;
+}
+    .single-product { 
+    width: 100%;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    line-height: 2pt;
+}
+.single-blog{
+    width: 100%;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    line-height: 2pt;
+    height: 520px;
+ }
+
+.single-product h3{
+    padding: 15px; 
+}
+
+.featured-products, .all-blogs{
+    display:block; 
+}
+
+ /* MIDDLE SECTION */
+.middle{ 
+   flex-direction: column;
+   justify-content: space-evenly; 
+}
+.one{ 
+   text-align: center;
+   margin: auto;
+   width: 90%;   
+}
+.kborder-right{
+   border: none;
+    border-bottom: 1px solid rgb(190, 190, 190); 
+}
+.ktitle{
+    line-height: 24pt;
+}
+
+footer{
+    margin-top: 940px;
+    padding-left: 2%;
+    display: block;
+}
+.left{
+    min-width: 60%;
+}
+.right{
+    width: 80%; 
+    margin-left: 0px; 
+    justify-content: none;
+
+}
+
+
+.newsletter{
+    min-width: 100%;
+}
+
+
+.catalogue{
+   
+    padding-left: 0%;  
+}
+
+.klong{
+    width: 80%; 
+    height: 600px; 
+    margin: auto;
+}
+
+.kshort{ 
+    width: 80%;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.kupward{
+    margin-top: 10px;
+}
+.kdown{
+    
+    margin-top: 30px;
+}
+}
+
+/* Very small devices */
+@media only screen and (max-width: 500px){
+     
+        footer{
+            margin-top: 1000px;
+            padding-left: 2%;
+            display: block;
+        }
+     
+    }
+
+
+    /* ANIMATIONS */
+
+@keyframes changer{
+
+}
